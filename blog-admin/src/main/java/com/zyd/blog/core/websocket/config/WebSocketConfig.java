@@ -39,9 +39,18 @@ public class WebSocketConfig {
      * ServerEndpointExporter会自动注册使用了@ServerEndpoint注解声明的Websocket endpoint
      * @return
      */
-    @Bean
+    /**
+    * @Description:
+    * @Author:         Lihaitao
+    * @Date:       2019/4/4 15:16
+    * @UpdateUser:    lihaitao
+    * @UpdateRemark:
+    */
+    //如果使用外部tomcat部署这里不需要注入serverEndpointExporter，如果注入会报
+    // javax.websocket.DeploymentException: Multiple Endpoints may not be deployed to the same path
+   /* @Bean
     public ServerEndpointExporter serverEndpointExporter() {
         return new ServerEndpointExporter();
     }
-
+*/
 }

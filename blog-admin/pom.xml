@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <artifactId>blog-admin</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>blog-admin</name>
 	<description>blog admin project for Spring Boot</description>
@@ -20,7 +20,12 @@
 			<groupId>com.zyd</groupId>
 			<artifactId>blog-core</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
@@ -82,14 +87,21 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<mainClass>com.zyd.blog.BlogAdminApplication</mainClass>
 					<layout>JAR</layout>
-                    <!--构建完整可执行程序，可以直接运行-->
+                    &lt;!&ndash;构建完整可执行程序，可以直接运行&ndash;&gt;
                     <executable>true</executable>
+				</configuration>
+			</plugin>-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
 		</plugins>

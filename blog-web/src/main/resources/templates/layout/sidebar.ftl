@@ -8,13 +8,13 @@
         </div>
     <#else>
         <div class="sidebar-module" style="position: relative;">
-            <a href='https://gitee.com/yadong.zhang/DBlog' target="_blank" rel="external nofollow"><img src='https://gitee.com/yadong.zhang/DBlog/widgets/widget_1.svg?color=07b83f' alt='Fork me on Gitee' style="position: absolute;right: 0;"/></a>
+            <a href='https://my.oschina.net/u/3510065' target="_blank" rel="external nofollow"><img src='https://gitee.com/yadong.zhang/DBlog/widgets/widget_1.svg?color=07b83f' alt='Fork me on Gitee' style="position: absolute;right: 0;"/></a>
             <h5 class="sidebar-title"><i class="fa fa-home icon"></i><strong>关于我</strong></h5>
             <div class="widget">
                 <div id="feed_widget">
                     <div class="feed-about">
                         <div class="about-main">
-                            <div class="about-img"><a href="${config.staticWebSite}/img/wx_300px.png" class="showImage" title="微信公众号"><img src="${config.staticWebSite}/img/wx_300px.png" alt="微信公众号"></a></div>
+                            <div class="about-img"><a href="${config.staticWebSite}/img/wx.jpg" class="showImage" title="微信公众号"><img src="${config.staticWebSite}/img/wx_300px.png" alt="微信公众号"></a></div>
                             <div class="about-name">${config.siteName}</div>
                             <div class="about-the">${config.siteDesc?if_exists}</div>
                         </div>
@@ -26,18 +26,18 @@
                                 <a class="tag-icon" title="微信" rel="external nofollow"><i class="fa fa-weixin"></i></a>
                             </li>
                             <li class="tqq auto-shake">
-                                <a class="tag-icon" href="javascript:window.open('tencent://message/?uin=843977358&Site=www.${config.domain}&Menu=yes')" title="点击QQ联系我" target="blank" rel="external nofollow"><i class="fa fa-qq"></i></a>
+                                <a class="tag-icon" href="javascript:window.open('tencent://message/?uin=984695425&Site=www.${config.domain}&Menu=yes')" title="点击QQ联系我" target="blank" rel="external nofollow"><i class="fa fa-qq"></i></a>
                             </li>
                             <li class="tsina auto-shake">
-                                <a class="tag-icon" href="http://weibo.com/211230415" title="点击查看我的微博" target="_blank" rel="external nofollow"><i class="fa fa-weibo"></i></a>
+                                <a class="tag-icon" href="http://weibo.com/17809269791" title="点击查看我的微博" target="_blank" rel="external nofollow"><i class="fa fa-weibo"></i></a>
                             </li>
                             <li class="github auto-shake">
-                                <a class="tag-icon" href="https://github.com/zhangyd-c" title="点击查看我的github" target="_blank" rel="external nofollow"><i class="fa fa-github"></i></a>
+                                <a class="tag-icon" href="https://github.com/lihaitao1418064017" title="点击查看我的github" target="_blank" rel="external nofollow"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
                         <!-- 方案二：列表展示 -->
                         <!--<ul class="list-unstyled">
-                            <li><i class="fa fa-info-circle fa-fw"></i>博主：<small>张亚东</small></li>
+                            <li><i class="fa fa-info-circle fa-fw"></i>博主：<small>李海涛</small></li>
                             <li><i class="fa fa-user-circle fa-fw"></i>职业：<small>码农</small></li>
                             <li><i class="fa fa-home fa-fw"></i>籍贯：<small>长白山某棵树上</small></li>
                             <li><i class="fa fa-envelope-square fa-fw"></i>邮箱：<small>10000@qq.com</small></li>

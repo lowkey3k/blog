@@ -1,5 +1,5 @@
 <#-- 公共顶部 -->
-<#macro header title="张亚东博客" keywords="默认文字" description="默认文字" canonical="">
+<#macro header title="李海涛" keywords="默认文字" description="默认文字" canonical="">
 <#include "/common/annotation.ftl">
 <!DOCTYPE HTML>
 <html lang="zh-CN">
@@ -78,7 +78,7 @@
 
 <#-- 页面顶部、菜单下方提示栏 -->
 <#macro prompt>
-    <!--[if lt IE 9]><div class="alert alert-danger topframe" role="alert">Oh My God！你的浏览器实在<strong>太太太太太太旧了</strong>，赶紧升级浏览器 <a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div><![endif]-->
+    <!--[if lt IE 9]><div class="alert alert-danger topframe" role="alert">卧槽<strong>浏览器不行</strong>，用Chrome吧 <a target="_blank" class="alert-link" href="http://browsehappy.com">立即升级</a></div><![endif]-->
     <#if config.maintenance?if_exists && config.maintenance>
     <div class="alert alert-warning fade-in" role="alert">
         <a href="#" class="close" data-dismiss="alert">&times;</a>

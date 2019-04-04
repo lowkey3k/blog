@@ -82,7 +82,7 @@ public class Comment {
             return url;
         }
         if (sid == -1) {
-            url += "/guestbook";
+            url += "/blog-web-2.0.1.Beta/guestbook";
         } else if (sid == -2) {
             url += "/links";
         } else if (sid == -3) {
@@ -99,11 +99,11 @@ public class Comment {
         if (title == null) {
             Long sid = getSid();
             if (sid == -1) {
-                title = "留言板 | 张亚东博客";
+                title = "留言板 | 李海涛博客";
             } else if (sid == -2) {
-                title = "友情链接 | 张亚东博客";
+                title = "友情链接 | 李海涛博客";
             } else if (sid == -3) {
-                title = "关于 | 张亚东博客";
+                title = "关于 | 李海涛博客";
             }
         }
         return title;

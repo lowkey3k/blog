@@ -267,7 +267,7 @@ CREATE TABLE `sys_link` (
 -- ----------------------------
 -- Records of sys_link
 -- ----------------------------
-INSERT INTO `sys_link` VALUES ('1', 'https://www.zhyd.me', '张亚东博客', '一个程序员的个人博客', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2016-11-16 23:32:03', '2018-01-23 11:27:19');
+INSERT INTO `sys_link` VALUES ('1', 'https://www.zhyd.me', '李海涛博客', '一个程序员的个人博客', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2016-11-16 23:32:03', '2018-01-23 11:27:19');
 INSERT INTO `sys_link` VALUES ('13', 'http://tool.zhyd.me', '在线工具', '在线工具，只做最有用、最简单、最干净、最方便的工具网站。', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', '2017-05-04 11:22:29', '2017-05-09 09:11:35');
 INSERT INTO `sys_link` VALUES ('35', 'http://music.zhyd.me', '我的音乐馆', '我的音乐馆', 'yadong.zhang0415@gmail.com', null, 'http://music.zhyd.me/images/favicon.ico', '1', '1', null, 'ADMIN', '2018-04-19 20:01:35', '2018-04-19 20:01:35');
 
