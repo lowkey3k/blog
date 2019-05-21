@@ -112,6 +112,7 @@ public class Encoder {
     // Add a character to the end of the current packet, and if it is 254
     // characters, flush the packet to disk.
     void char_out(byte c, OutputStream outs) throws IOException {
+
         accum[a_count++] = c;
         if (a_count >= 254)
             flush_char(outs);
